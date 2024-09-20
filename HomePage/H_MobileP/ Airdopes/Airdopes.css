@@ -1,0 +1,175 @@
+.slider_air {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px 0;
+    margin: 20px;
+    gap: 0; 
+}
+
+.card_air {
+    border: 1px solid #e1e1e1;
+    flex: 0 0 auto; 
+    width: 250px; 
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card_air img {
+    height: auto;
+    width: 100%;
+}
+
+.card_air p {
+    margin: 0;
+    padding: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body_air {
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn_hover_air {
+    display: none;
+    background-color: #ff5a00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 10px; 
+
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 2;
+}
+
+.card_air:hover .btn_hover_air {
+    display: block;
+}
+
+.S_hover_air {
+    position: absolute;
+    top: 40%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px; 
+    padding: 7px;
+    background-color: #ff5a00;
+    opacity: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 3;
+}
+
+.card_air:hover .S_hover_air {
+    opacity: 1;
+}
+.img-c {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; 
+    overflow: hidden;
+  }
+  
+  .img-c img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .img-c .hover-img {
+    transform: translateX(100%); 
+  }
+  
+  .card_:hover .img-c .hover-img {
+    transform: translateX(0); 
+  }
+
+
+
+ 
+ /* import React from 'react';
+ import './Airdopes.css';
+ 
+ export default function Menu() {
+     const menuItems = [
+         {
+             id: 1,
+             title: 'realme Buds Wireless 3 Bluetooth Headset (Base Yellow)',
+             price: "₹1,799.00",
+             imgUrl: 'https://www.poojaratele.com/media/catalog/product/cache/90a134277743797b50583adb372868cb/m/b/mb-2.jpg',
+         },
+         {
+             id: 2,
+             title: 'OnePlus Nord Buds 2 (Lightning White)',
+             price: "₹2,999.00",
+             imgUrl: 'https://www.poojaratele.com/media/catalog/product/cache/90a134277743797b50583adb372868cb/o/n/oneplus-nord-buds2-lw-thum1.jpg',
+         },
+         {
+             id: 3,
+             title: 'Apple AirPods (2nd Gen.) with Lightning Charging Case (White)',
+             price: "₹12,900.00",
+             imgUrl: 'https://www.poojaratele.com/media/catalog/product/cache/90a134277743797b50583adb372868cb/a/p/apple-airpods-2nd-gen-with-lightning-charging-case-thum1.jpg',
+         },
+         {
+             id: 4,
+             title: 'Mi Neckband Bluetooth Earphone Pro (In-Ear, Blue)',
+             price: "₹1,526.00",
+             imgUrl: 'https://www.poojaratele.com/media/catalog/product/cache/90a134277743797b50583adb372868cb/m/i/mi-neckband-blt-earphone-pro-bhr4203in-thum1.jpg',
+         },
+         {
+             id: 5,
+             title: 'Redmi Earbuds 3 Pro (In-Ear, White)',
+             price: "₹2,999.00",
+             imgUrl: 'https://www.poojaratele.com/media/catalog/product/cache/90a134277743797b50583adb372868cb/r/e/redmi-earbuds-3-pro-white-bhr4967in-thum1.jpg',
+         },
+         {
+             id: 6,
+             title: 'boAt Airdopes 418 Wireless Earbuds (Blue Thunder)',
+             price: "₹2,199.00",
+             imgUrl: 'https://www.poojaratele.com/media/catalog/product/cache/90a134277743797b50583adb372868cb/b/o/boat-airdopes-418-bt-thum1.jpg',
+         }
+     ];
+ 
+     return (
+         <div className="slider_air">
+             {menuItems.map((item, index) => (
+                 <div key={index} className="card_air">
+                     <div className="img_c">
+                         <img src={item.imgUrl} alt={item.title} className="main-img" />
+                         <img src={item.hoverImgUrl} alt={item.title} className="hover-img" />
+                     </div>
+                     <p className="S_hover">
+                         <i className="far fa-eye"></i>
+                     </p>
+                     <div className="card-body">
+                         <p>{item.title}</p>
+                         <p>{item.price}</p>
+                     </div>
+                 </div>
+             ))}
+         </div>
+     );
+ } */
+
+ 
+ 

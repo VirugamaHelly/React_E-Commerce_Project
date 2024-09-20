@@ -1,0 +1,124 @@
+
+body {
+    background-color: #f5f3ea;
+    
+}
+.card {
+    height: 100%;
+    max-height: 340px; 
+    overflow: hidden; 
+  }
+
+.font h3 {
+    font: 600 24px / 1.35 Roboto, Helvetica Neue, Verdana, Arial, sans-serif;
+    color: #282828;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    margin: 16px;
+}
+
+.card img {
+    height: auto;
+    object-fit: cover; 
+}
+
+.S_hover {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #ff5a00;
+    opacity: 0;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.card:hover .S_hover {
+    opacity: 1;
+}
+
+.card-body {
+    position: relative;
+    z-index: 1;
+    padding: 16px;
+    background-color: white;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn_hover {
+    margin-top: 10px;
+    display: none;
+    background-color: #ff5a00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+
+.card:hover .btn_hover {
+    display: block;
+}
+
+.card:hover .card-body {
+    transform: translateY(-60px);
+}
+.card-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 10px auto;
+    }
+}
+.ipone{
+    display: flex;
+    justify-content: center;
+
+}
+.ipone button{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #ff5a00;
+    border-color: #ff5a00;
+    color: white;
+    transition: all .4s linear;
+
+}
+.ipone button:hover{
+    background-color: white;
+    border-color: #ff5a00;
+    color: grey;
+}
+
+
+
+
+
+  
+
+  
+
+  
+ 
+  

@@ -1,0 +1,64 @@
+.header {
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between; /* Align items to the start and end */
+    align-items: center; /* Center vertically */
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon i {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.icon .m-2 {
+    margin: 0 0.5rem;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.btn_login {
+   
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.3rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+
+
+.login span {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}

@@ -1,0 +1,13 @@
+
+.LoderImg img{
+  height: 400px;
+  width: 400px;
+  color: black;
+}
+.LoderImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}

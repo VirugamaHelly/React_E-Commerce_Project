@@ -1,0 +1,85 @@
+.font {
+    margin-bottom: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card_watch {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card_watch img {
+    width: 100%;
+    height: auto;
+  }
+.card-body_watch{
+    background-color: white;
+}
+  
+  .S_hover_watch {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #ff5a00;
+    opacity: 0;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 2;
+  }
+  
+  .card_watch:hover .S_hover_watch {
+    opacity: 1;
+  }
+  
+  .card-body_watch {
+    padding: 15px;
+    text-align: center;
+  }
+
+  
+  .btn_hover_watch {
+    background-color: #dddbdb;
+    color: #7c7c7c;
+    padding: 7px;
+    width: 150px;
+    border-radius: 5%;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    display: inline-block; 
+  }
+  
+  .btn_hover_watch::before {
+    content: "";
+    height: 100%;
+    width: 200px;
+    background-color: #ff5a00;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    transition: all 0.2s linear;
+    z-index: -1;
+  }
+  
+  .btn_hover_watch:hover {
+    color: black;
+  }
+  
+  .btn_hover_watch:hover::before {
+    left: 0;
+  }
+  

@@ -1,0 +1,87 @@
+.container {
+  margin-top: 20px;
+}
+
+.product-info {
+  color: grey;
+  font-size: 14px;
+}
+
+.rating {
+  background: green;
+  color: white;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.main-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.small-images {
+  display: flex;
+  gap: 10px;
+}
+
+.smallImgStyle {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+
+
+
+.add-to-cart {
+  background: #ff5a00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btnStyle {
+  width: 2rem;
+  height: 2rem;
+  background-color: #000;
+  border-radius: 50%;
+  margin-left: 1rem;
+  border: none;
+  outline: none;
+  opacity: 0.5;
+  cursor: pointer;
+  color: white;
+}
+
+.active {
+  opacity: 1;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+.counter button {
+  background: #ff5a00;
+  color: white;
+  border: none;
+  padding: 2px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c_no {
+  width: 40px;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 5px;
+}

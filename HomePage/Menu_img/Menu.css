@@ -1,0 +1,20 @@
+.slider {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 80px;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.slider p{
+    margin-top: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.slider img{
+    height: 70px;
+    width: 70px;
+}
+

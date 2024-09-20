@@ -1,0 +1,105 @@
+.container {
+  margin-top: 20px;
+}
+
+.text-center {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.card-horizontal {
+  flex-direction: row;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.img-container:hover {
+  transform: translateX(0%); 
+}
+
+.main-img, .hover-img {
+  width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.hover-img {
+  position: absolute;
+  top: 0;
+  left: 100%; 
+  opacity: 0;
+  transition: left 0.3s ease, opacity 0.3s ease; 
+}
+
+.img-container:hover .hover-img {
+  left: 0; 
+  opacity: 1;
+}
+
+.img-container:hover .main-img {
+  opacity: 0;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.card-pera {
+  margin-bottom: 10px;
+}
+
+.btn_hover i {
+  margin-right: 5px;
+}
+
+.first-card .img-container {
+  width: 50%;
+  transform: translateX(0);
+}
+
+.first-card .card-body {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+.first-card .S_hover{
+  display: none;
+}
+
+@media (max-width:440px) {
+  .card-pera{
+    display: none;
+  }
+  .first-card .img-container{
+    width: 100%;
+  }
+  .first-card .card-body {
+    width: 50%;
+  
+  }
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Login {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    padding: 10px;
+  }
+  .btn_sign{
+    background-color: #dddbdb;
+    color: #7c7c7c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    bottom: 10px; 
+    width: 150px;
+    transition: all .4s linear;
+  } 
+  .btn_sign:hover {
+    background-color: #ff5a00;
+    color: white;
+  }
+  
+
+
